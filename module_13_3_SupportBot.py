@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, executor
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-api = '7318149436:AAGsSUVCDgZhtmeaAEPHaoSxhZDaYpYoO_U'
+api = '____________'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())  # Added parentheses to initialize MemoryStorage
 
@@ -22,3 +22,5 @@ async def all_massages(message):
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
+
+
